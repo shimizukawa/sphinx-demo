@@ -24,7 +24,7 @@ html_theme = 'default'
 import sys, os
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.coverage']
 extensions.append('sphinxcontrib.blockdiag')
-extensions.append('sphinxcontrib_seqdiag')
+extensions.append('sphinxcontrib.seqdiag')
 extensions.append('sphinxjp.themecore')
 #extensions.append('sphinx.ext.jsmath')
 extensions.append('sphinx.ext.pngmath')
